@@ -1,7 +1,13 @@
 const express = require('express')
-const router = express.router()
+const router = express.Router()
+
+
+
 
 router.use('/', require('./home'))
+
+
+
 
 router.all('*', (req, res) => {
     res.status(400).send()

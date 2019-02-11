@@ -5,3 +5,4 @@ module.exports = {
         Stocks.find().then(show => res.json({show}))
     }
 }
+

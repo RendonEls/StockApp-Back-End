@@ -2,7 +2,7 @@ const mongoose = require('../db/connection')
 
 const Schema = mongoose.Schema
 
-const Stock = new Schema({
+const Stocks = new Schema({
 
     symbol: String,
     companyName: String,
@@ -11,4 +11,4 @@ const Stock = new Schema({
 
 })
 
-module.exports = mongoose.model("Stock", Stock)
+module.exports = mongoose.model("Stocks", Stocks)
