@@ -1,0 +1,26 @@
+{
+  "name": "stockapp-back-end",
+  "version": "1.0.0",
+  "description": "stock ticker app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RendonEls/StockApp-Back-End.git"
+  },
+  "author": "Rendon Elsesser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RendonEls/StockApp-Back-End/issues"
+  },
+  "homepage": "https://github.com/RendonEls/StockApp-Back-End#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.11",
+    "node": "^11.9.0"
+  }
+}
