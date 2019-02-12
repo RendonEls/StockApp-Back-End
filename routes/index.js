@@ -8,7 +8,6 @@ router.use('/', require('./home'))
 
 
 
-
 router.all('*', (req, res) => {
     res.status(400).send()
 })
